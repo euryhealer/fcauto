@@ -1,0 +1,16 @@
+node_modules
+frontend/node_modules
+backend/.venv
+__pycache__
+*.pyc
+.env
+.DS_Store
+.vscode
+.idea
+local.db
+.git_fcauto/
+backend/.venv2
+backend/.venv_local
+backend/local.db
+backend/*.log
+backend/*.err.log

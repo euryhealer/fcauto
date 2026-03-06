@@ -1,0 +1,24 @@
+version: 3.9
+services:
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: woo_sync
+      POSTGRES_USER: woo_sync
+      POSTGRES_PASSWORD: woo_sync
+    ports:
+      - 5432:5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  backend:
+    build: ./backend
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    environment:
+      DATABASE_URL: postgresql+psycopg2://woo_sync:woo_sync@db:5432/woo_sync
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+volumes:
+  db_data:

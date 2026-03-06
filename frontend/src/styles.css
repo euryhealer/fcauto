@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #f8fafc;
+  --surface-2: #ffffff;
+  --text: #000000;
+  --bg-accent-a: #eef2ff;
+  --bg-accent-b: #e0f2fe;
+  --bg-accent-c: #dcfce7;
+  --header-bg: #ffffff;
+  --header-border: #e2e8f0;
+  --brand: #1d4ed8;
+  --drop-bg: #f8fafc;
+  --drop-hover-bg: #eff6ff;
+  --drop-active-bg: #dbeafe;
+  --drop-border: #cbd5e1;
+  --drop-border-hover: #60a5fa;
+  --drop-border-active: #3b82f6;
+}
+
+:root[data-theme="dark"] {
+  --surface: #0b1220;
+  --surface-2: #0f172a;
+  --text: #ffffff;
+  --bg-accent-a: #111827;
+  --bg-accent-b: #0b2239;
+  --bg-accent-c: #10261d;
+  --header-bg: #0f172a;
+  --header-border: #1f2937;
+  --brand: #93c5fd;
+  --drop-bg: #111827;
+  --drop-hover-bg: #0f172a;
+  --drop-active-bg: #1e293b;
+  --drop-border: #334155;
+  --drop-border-hover: #60a5fa;
+  --drop-border-active: #93c5fd;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at 20% 20%, var(--bg-accent-a), var(--surface) 40%),
+    radial-gradient(circle at 80% 0%, var(--bg-accent-b), transparent 35%),
+    radial-gradient(circle at 70% 80%, var(--bg-accent-c), transparent 40%),
+    var(--surface);
+  color: var(--text);
+  transition: background 0.4s ease, color 0.3s ease;
+}
+
+#root {
+  color: var(--text);
+}
+
+/* Force text to pure theme contrast across existing Tailwind utility classes. */
+.text-slate-500,
+.text-slate-600,
+.text-slate-700,
+.text-slate-900,
+.text-blue-500,
+.text-blue-700,
+.text-blue-900,
+.text-emerald-500,
+.text-emerald-900,
+.text-amber-600,
+.text-amber-900,
+.text-rose-800,
+.text-red-600,
+.text-slate-50,
+.text-white,
+.dark\:text-white {
+  color: var(--text) !important;
+}
+
+.catalog-panel {
+  background: var(--surface-2);
+  border: 1px solid var(--header-border);
+}
+
+.catalog-row:hover {
+  background: color-mix(in srgb, var(--surface-2) 70%, var(--text) 30%);
+}
+
+.drop-zone {
+  background: var(--drop-bg);
+  border-color: var(--drop-border);
+}
+
+.drop-zone:hover {
+  background: var(--drop-hover-bg);
+  border-color: var(--drop-border-hover);
+}
+
+.drop-zone-active {
+  background: var(--drop-active-bg);
+  border-color: var(--drop-border-active);
+}
+
+:root[data-theme="dark"] .config-page .config-button-text {
+  color: #000000 !important;
+}
+
+:root[data-theme="dark"] .summary-card {
+  background: var(--surface-2) !important;
+  border-color: var(--header-border) !important;
+}
+
+.bg-surface {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.bg-surface-2 {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.text-foreground {
+  color: var(--text);
+}
+
+.dark .bg-surface,
+.dark .bg-surface-2 {
+  background: var(--surface);
+}
+
+.drop-area {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.drop-area:hover {
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.12);
+}
+
+.falling-file {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  animation: fall 0.8s ease forwards;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.file-ghost {
+  font-size: 2rem;
+  animation: bounce 0.8s ease;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-80px) scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(30px) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

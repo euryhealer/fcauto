@@ -1,0 +1,54 @@
+
+> woo-sync-frontend@0.0.1 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m554[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m11:02:01 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:07:49 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:11:48 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:15:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:19:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:19:51 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:23:19 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:23:59 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:25:17 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:30:03 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:31:46 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:33:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:34:28 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:34:34 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:53:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:54:40 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m11:55:50 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:08:51 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:27:42 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:30:26 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:34:40 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:34:45 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:35:02 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m12:35:08 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:42:27 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:45:34 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:49:49 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:51:56 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:52:05 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:52:25 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:56:44 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m1:58:13 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:05:51 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:06:13 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:06:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:12:42 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:13:00 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:15:06 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:17:30 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:19:39 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:22:07 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:25:05 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:31:48 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m2:45:04 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m3:28:45 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
+[2m4:10:41 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Catalog.tsx, /src/styles.css[22m
