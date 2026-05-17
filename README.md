@@ -1,3 +1,5 @@
+e-commerce automation app
+
 # Woo Sync MVP
 
 Monorepo (backend FastAPI + frontend Vite React) para importar Excel y sincronizar productos variables en WooCommerce con imágenes de Google Drive y subida a WordPress Media.
